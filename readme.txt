@@ -36,7 +36,7 @@ http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=56
 http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=78&No=396
 for more info. The display used has only two lines.
 
-The VHDL description can both be simulated and synthesized.
+The VHDL descriptions can both be simulated and synthesized.
 
 This driver has a User Side and a LCD Side. The user is to interface at the User Side
 and has a number of "routines" at her disposal. The User Side implements the following
@@ -97,8 +97,8 @@ Note: it's not possible to write command codes to the display.
 A note about timing:
     Some of the timing parameters are very small, e.g. the RW and RS setup time with
     respect to rising edge of E. If the clock frequency is too low, the delay calculated
-	 will be zero, which result in at least a delay with the period time of the clock.
+    will be zero, which result in at least a delay with the period time of the clock.
 
 A note about implementing:
     If the driver doesn't work or you get clobbered strings, please use non-BF
-	 reading at first. Next, increase the Cycle E time and PWeh time.
+    reading at first. Next, increase the Cycle E time and PWeh time.

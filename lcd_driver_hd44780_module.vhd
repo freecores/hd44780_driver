@@ -25,7 +25,7 @@
 -- http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=78&No=396
 -- for more info. The display used has only two lines.
 --
--- The VHDL description can both be simulated and synthesized.
+-- This VHDL description can both be simulated and synthesized.
 --
 -- This driver has a User Side and a LCD Side. The user is to interface at the User Side
 -- and has a number of "routines" at her disposal. The User Side implements the following
